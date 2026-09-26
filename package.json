@@ -4,7 +4,6 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "node server.mjs",
     "images": "node prepare-images.mjs",
     "test": "node --test test.mjs"
   },
