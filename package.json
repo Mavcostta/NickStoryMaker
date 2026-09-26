@@ -1,0 +1,19 @@
+{
+  "name": "portifolionick",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "images": "node prepare-images.mjs",
+    "test": "node --test test.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "sharp": "^0.35.4"
+  }
+}
