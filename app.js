@@ -92,7 +92,9 @@ if (projects.length) {
       const caption = element('div', 'project-caption');
       caption.append(element('h3', '', project.name), element('span', '', project.type));
       frame.append(play);
-      article.append(frame, caption, fallback); grid.append(article);
+      const screen = element('div', 'featured-screen');
+      screen.append(frame);
+      article.append(screen, caption, fallback); grid.append(article);
       continue;
     }
     const button = element('button', `project ${index % 3 === 0 ? 'project-wide' : ''}`);
